@@ -6,7 +6,7 @@
  
  */
 
-package my.PSM;
+package PSM.PSM_Storage;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

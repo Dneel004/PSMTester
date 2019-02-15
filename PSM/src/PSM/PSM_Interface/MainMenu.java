@@ -4,7 +4,7 @@
  * Created on April 13, 2008, 2:47 PM
  */
 
-package my.PSM;
+package PSM.PSM_Interface;
 
 /**
  *

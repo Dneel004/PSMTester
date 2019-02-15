@@ -7,7 +7,7 @@
  * and open the template in the editor.
  */
 
-package my.PSM;
+package PSM.PSM_Logic;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.lang.Thread;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import my.PSM.DBConnection;
 
 /**
  *

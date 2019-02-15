@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package my.PSM;
+package PSM.PSM_Logic;
 
 /**
  *

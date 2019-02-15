@@ -4,7 +4,7 @@
  * Created on April 13, 2008, 2:44 PM
  */
 
-package my.PSM;
+package PSM.PSM_Interface;
 
 import javax.swing.JTextField;
 
