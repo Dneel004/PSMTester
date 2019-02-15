@@ -1,2 +1,0 @@
-# PSMTester
-Software Testing project
