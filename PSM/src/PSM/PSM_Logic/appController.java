@@ -1,6 +1,6 @@
 /*
  * ApplicationLogic.java
- *
+ * unit
  * Created on April 12, 2008, 11:03 AM
  *
  * To change this template, choose Tools | Template Manager
