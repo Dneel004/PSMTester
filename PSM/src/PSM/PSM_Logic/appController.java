@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.lang.Thread;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+//import my.PSM.PrefilledScheduleForm;
 
 import my.PSM.DBConnection;
 
@@ -69,6 +70,7 @@ public class appController {
     
     public static DBConnection db = new DBConnection();
     private static InterfaceController ic = new InterfaceController();
+    //private static PrefilledScheduleForm edSched = new PrefilledScheduleForm();
     private static Authenticate auth;
     private static int courseSel;
     private static long classEnded = 0;
@@ -207,7 +209,7 @@ public class appController {
 
                //System.out.println("Save has been pressed" +ic.edSched.newMonStart);
 
-               db.storeClassSched(ic.edSched.defCourseID, ic.edSched.newCourseStart, ic.edSched.newCourseEnd, 
+               db.storeClassSched(ic.edSched.newCourseID, ic.edSched.newCourseStart, ic.edSched.newCourseEnd, 
                        ic.edSched.newMonStart, ic.edSched.newMonEnd, ic.edSched.newTueStart, ic.edSched.newTueEnd, 
                        ic.edSched.newWedStart, ic.edSched.newWedEnd, ic.edSched.newThuStart, ic.edSched.newThuEnd, 
                        ic.edSched.newFriStart, ic.edSched.newFriEnd, ic.edSched.newSatStart, ic.edSched.newSatEnd);

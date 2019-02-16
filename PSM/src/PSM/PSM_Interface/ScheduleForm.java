@@ -12,24 +12,24 @@ package PSM.PSM_Interface;
  */
 public class ScheduleForm extends javax.swing.JFrame {
     
-      static int newCourseID;
-      static String newSub;
-      static String newSemester;
-      static String newCourseName;
-      static String newCourseStart;
-      static String newCourseEnd;
-      static String newMonStart;
-      static String newMonEnd;
-      static String newTueStart;
-      static String newTueEnd;
-      static String newWedStart;
-      static String newWedEnd;
-      static String newThuStart;
-      static String newThuEnd;
-      static String newFriStart;
-      static String newFriEnd;
-      static String newSatStart;
-      static String newSatEnd;
+      public static int newCourseID;
+      public static String newSub;
+      public static String newSemester;
+      public static String newCourseName;
+      public static String newCourseStart;
+      public static String newCourseEnd;
+      public static String newMonStart;
+      public static String newMonEnd;
+      public static String newTueStart;
+      public static String newTueEnd;
+      public static String newWedStart;
+      public static String newWedEnd;
+      public static String newThuStart;
+      public static String newThuEnd;
+      public static String newFriStart;
+      public static String newFriEnd;
+      public static String newSatStart;
+      public static String newSatEnd;
       
       private static boolean dataReceived;
      

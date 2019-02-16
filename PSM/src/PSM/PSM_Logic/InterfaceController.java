@@ -1,12 +1,6 @@
 package PSM.PSM_Logic;
 
-import my.PSM.LogOutConfirm;
-import my.PSM.LoginForm;
-import my.PSM.MainMenu;
-import my.PSM.Messages;
-import my.PSM.PrefilledScheduleForm;
-import my.PSM.ScheduleForm;
-import my.PSM.courseSelect;
+import PSM.PSM_Interface.*;
 
 //
 //
