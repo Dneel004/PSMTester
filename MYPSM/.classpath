@@ -5,5 +5,9 @@
 	<classpathentry kind="lib" path="dist/lib/swing-layout-1.0.3.jar"/>
 	<classpathentry kind="lib" path="dist/PSM.jar"/>
 	<classpathentry kind="lib" path="mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="src/powermock-mockito-1.7.1-full.jar"/>
+	<classpathentry kind="lib" path="src/javassist-3.21.0-GA.jar"/>
+	<classpathentry kind="lib" path="src/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="src/mockito-all-1.10.19.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

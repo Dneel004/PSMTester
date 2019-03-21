@@ -28,6 +28,20 @@ public class DBConnection
     private String localDb = "jdbc:mysql://localhost:3306/softwaretesting";
     private String result;
     private String [] courses;
+    Statement s;
+    ResultSet res;
+    public void setStatement(Statement newS)
+    {
+        s= newS;
+    }
+    public void setResultSet(ResultSet newRs) 
+    {
+        res = newRs;
+    }
+    public void setMyCon(Connection newMyCon)
+    {
+        myCon = newMyCon;
+    }
     
     /** Creates a new instance of DBConnection */
     public DBConnection()
@@ -97,10 +111,10 @@ public class DBConnection
     {
         // SELECT * FROM example WHERE name='Sandy Smith'
         try{
-            Statement s = myCon.createStatement();          
+            s = myCon.createStatement();          
             // System.out.println("SELECT course_id FROM class100 WHERE course_id = " +courseID +";");
             s.executeQuery("SELECT course_id FROM class100 WHERE course_id = " +courseID +";");
-            ResultSet res = s.getResultSet();
+            res = s.getResultSet();
             res.next();             // Move to first row!
             return res.getInt("course_id");
                    
@@ -214,10 +228,10 @@ public class DBConnection
     {
         // SELECT * FROM example WHERE name='Sandy Smith'
         try{
-            Statement s = myCon.createStatement();          
+            s = myCon.createStatement();          
             // System.out.println("SELECT course_id FROM class100 WHERE course_id = " +courseID +";");
             s.executeQuery("SELECT course_name FROM class100 WHERE course_id = " +courseID +";");
-            ResultSet res = s.getResultSet();
+            res = s.getResultSet();
             res.next();             // Move to first row!
             return res.getString("course_name");
                    
